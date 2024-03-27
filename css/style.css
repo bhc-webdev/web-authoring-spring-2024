@@ -1,32 +1,71 @@
+/* 
+rgb(198, 196, 193) #F7E7D4 #fbf3e9 light background
+rgb(0, 14, 0) #091834 #091834 dark text
+#0c6600 #326C83 Blue Accent
+#FB8604 #ff622a #e85525 orange
+#f4d655 yellow accent
+#b52a10 red accent
+*/
+
 @font-face {
     font-family: rock-salt;
     src: url('../fonts/RockSalt-Regular.ttf') format("truetype");
 }
 
 body {
-    background-color: rgb(198, 196, 193);
+    background-color: #fbf3e9;
 }
 
 header {
-    background-color: #0c6600;
-    padding: 2em;
-}
-main {
-    background-color: rgb(198, 196, 193);
+    background: #fbf3e9 url(../images/relaxing-witch.png) no-repeat center top;
+    height: 500px;
     padding: 2em;
 }
 
+main {
+    background-color: #fbf3e9;
+}
+
+nav {
+    background-color: #0a232d;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#0a232d+10,e85525+50,0a232d+90 */
+    background: linear-gradient(to right, #0a232d 10%, #e85525 50%, #0a232d 90%);
+}
+
+nav li {
+    list-style-type: none;
+    display: inline-block;
+    padding: .75em;
+}
+
+nav a:link {
+    color: #f4d655;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #f4d655;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #e85525;
+    text-decoration: none;
+}
+
 h1 {
-    color: yellow;
+    color: #e85525;
     font-family: rock-salt, cursive;
     font-weight: 700;
     margin: .5em auto;
     padding-bottom: .5em;
     font-size: 2em;
-    text-shadow: 4px 4px 8px #424040;}
+    text-align: right;
+}
 
-h2, h3 {
-	color: #660000;
+h2,
+h3 {
+    color: #1258DC;
     margin: .5em auto;
 }
 
@@ -40,22 +79,45 @@ h3 {
 
 p {
     font-family: Arial, Helvetica, sans-serif;
-    color: green;
+    color: #091834;
     margin: .5em auto;
 }
 
-a:link { color:#FF0000; } /* unvisited link */
-a:visited { color:#00FF00; } /* visited link */
-a:hover { color:#FF00FF; } /* mouse over link */
-a:active { color:#0000FF; }  /* selected link */
+a:link {
+    color: #b52a10;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #b52a10;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #326C83;
+    text-decoration: none;
+}
 
 .rock-salt-regular {
     font-family: "Rock Salt", cursive;
     font-weight: 700;
     font-style: normal;
-  }
+}
 
 .fawesome {
-    color: yellow;
+    color: #fbf3e9;
     padding: 0 8px 0 0;
+}
+
+footer {
+    background-color: #0A232D;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1258dc+0,0a232d+50,1258dc+100 */
+    background: linear-gradient(to right, #0a232d 10%, #e85525 50%, #0a232d 90%);
+    height: 80px;
+}
+
+footer>h2 {
+    text-align: center;
+    padding-top: 30px;
+    color: #fbf3e9;
 }

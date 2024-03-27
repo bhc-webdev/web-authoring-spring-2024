@@ -26,20 +26,27 @@
     <link href="css/fontawesome/css/all.css" rel="stylesheet">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
 </head>
 
 <body>
     <header>
-        <h1>Santa's Best Site</h1>
-        <nav>
-            <i class="fa-solid fa-house fawesome"></i><a href="index.html">Home</a>&emsp;
-            <i class="fa-solid fa-newspaper fawesome"></i><a href="blog.html">Blog</a>
-        </nav>
+        <div id="logo">
+            <img id="logoImage" src="images/pumpkin-jack-head-shot-trans-thumb.png" alt="Site logo jack-o-lantern">
+        </div>
+        <h1 id="headerText">Pumpkin Jack's Nightmare Before Christmas</h1>
     </header>
+    <nav>
+        <ul>
+            <li><a href="index.html"><i class="fa-solid fa-house"></i>&nbsp;Home</a></li>
+            <li><a href="blog.html"><i class="fa-solid fa-newspaper"></i>&nbsp;Blog</a></li>
+        </ul>        
+    </nav>
     <main>
         <h2 class="special">Page Heading</h2>
         <section>
             <h3>Section Heading 1</h3>
+            <img src="images/halloween.jpeg" alt="Santa" height="100px">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi ea ratione consequatur
                 veritatis, beatae qui maiores impedit laboriosam, deleniti quisquam sint tenetur vel nobis, cumque ipsa
                 similique doloremque corrupti aut.</p>
@@ -74,7 +81,7 @@
         </section>
     </main>
     <footer>
-        &copy; WebDev
+        <h2>&copy; WebDev</h2>
     </footer>
 </body>
 

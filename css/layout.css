@@ -1,0 +1,34 @@
+main {
+    box-sizing: border-box;
+    max-width: 80em;
+    margin: auto auto;
+    padding: 0 4em;
+    /* border: thin solid blue; */
+}
+
+header {
+    position: relative;
+}
+
+#headerText {
+    position: absolute;
+    bottom: 0;
+    z-index: 10;
+}
+
+#logo {
+    position: fixed;
+    right: 3vw;
+    top: 20px;
+    z-index: 5;
+}
+
+#logoImage {
+    max-width: 150px;
+    width: 20vw;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+}
