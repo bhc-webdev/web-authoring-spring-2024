@@ -17,9 +17,8 @@ body {
 }
 
 header {
-    background: #fbf3e9 url(../images/relaxing-witch.png) no-repeat center top;
-    height: 500px;
-    padding: 2em;
+    background: #fbf3e9 url(../images/halloween-pumpkins.jpg) no-repeat center bottom;
+    background-size: cover;
 }
 
 main {
@@ -57,15 +56,12 @@ h1 {
     color: #e85525;
     font-family: rock-salt, cursive;
     font-weight: 700;
-    margin: .5em auto;
-    padding-bottom: .5em;
     font-size: 2em;
-    text-align: right;
 }
 
 h2,
 h3 {
-    color: #1258DC;
+    color: #b52a10;
     margin: .5em auto;
 }
 
@@ -113,11 +109,17 @@ footer {
     background-color: #0A232D;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1258dc+0,0a232d+50,1258dc+100 */
     background: linear-gradient(to right, #0a232d 10%, #e85525 50%, #0a232d 90%);
-    height: 110px;
+    height: 120px;
 }
 
 footer>h2 {
     text-align: center;
     padding-top: 30px;
     color: #fbf3e9;
+}
+
+.mask1 {
+    mask-image: url(../images/pumpkin-jack-head-shot-color-sm.png);
+    mask-repeat: no-repeat;
+    mask-position: center; 
 }
