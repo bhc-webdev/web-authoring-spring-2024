@@ -1,7 +1,10 @@
 ---
 deployment:
  tasks:
- - export DEPLOYPATH=/home1/sherd/public_html/
+ - export DEPLOYPATH=/home1/sherd/public_html/theherdfamily
  - /bin/cp index.html $DEPLOYPATH
- - /bin/cp style.css $DEPLOYPATH
+ - /bin/cp blog.html $DEPLOYPATH
+ - /bin/cp -R css $DEPLOYPATH
+ - /bin/cp -R favicon $DEPLOYPATH
+ - /bin/cp -R fonts $DEPLOYPATH
  - /bin/cp -R images $DEPLOYPATH
