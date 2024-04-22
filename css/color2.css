@@ -1,0 +1,10 @@
+/* Assigning values to CSS variables */
+:root {
+    --blue: #326C83;
+    --light: #fbf3e9;
+    --dark: #15449b;
+    --orange: #9a25e8;
+    --yellow: #62f455;
+    --red: #1079b5;
+    --black: #0a232d;
+}

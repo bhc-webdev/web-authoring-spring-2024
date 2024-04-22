@@ -21,7 +21,7 @@ header {
     color: black;
     font-size: 3em;
     font-weight: 900;
-    text-shadow: 4px 4px 4px #f4d655;
+    text-shadow: 4px 4px 4px VAR(--yellow);
 }
 
 #logoImage {
@@ -44,7 +44,7 @@ nav {
 
 article {
     clear: both;
-    border: thick solid #e85525;
+    border: thick solid var(--yellow);
     border-radius: 15px;
     margin: 3em 0;
     padding: 2em;
