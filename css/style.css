@@ -96,7 +96,7 @@ a:hover {
     padding: 0 8px 0 0;
 }
 
-footer {
+.footer {
     /* background-color: var(--black); */
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1258dc+0,0a232d+50,1258dc+100 */
     background: linear-gradient(to right, var(--black) 10%, var(--orange) 50%, var(--black) 90%);
