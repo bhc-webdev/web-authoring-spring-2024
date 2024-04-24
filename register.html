@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>HTML5 Forms</title>
+    <meta name="description" content="HTML5 Forms">
+    <meta name="author" content="Stephen Herd">
+    <link href="css/fontawesome/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/color.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <header class="container-fluid bg-success p-3 text-center">
+        <h1 class="orange-text" id="headerText">Registration</h1>
+    </header>
+    <nav class="container-fluid navbar navbar-expand-md bg-success-subtle">
+        <div class="container-md">
+            <img src="images/pumpkin-jack-head-shot-color-sm.png" alt="Pumpkin Logo" width="36" height="36" class="me-3">
+            <h2 class="yellow-text me-5">Halloween</h2>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i>&nbsp;Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html"><i class="fa-solid fa-newspaper"></i>&nbsp;Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="register.html"><i class="fa-solid fa-pencil"></i>&nbsp;Register</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="container-md">
+        <section class="row">
+            <article class="col-md-9 mb-3">
+                <h2>Registration</h2>
+                <p>
+                    This page was created to demonstrate the basic web form input types.
+                </p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur iste earum nemo provident natus
+                    pariatur quasi sed eaque iusto? Praesentium dolores cupiditate soluta sapiente? Consectetur, esse
+                    beatae. Doloremque, quam nam.</p>
+                <fieldset class="border p-3 border-success border-2 rounded">
+                    <legend>This is a form demo.</legend>
+                    <h3>Personal Information</h3>
+                    <form id="myMailerForm" method="post" action="mailto:sherd@dcccd.edu">
+                        <p class="mb-3">
+                            <label class="fw-bold form-label" for="name">Name </label>
+                            <input class="form-control" type="text" id="name" name="Name" required autofocus>
+                        </p>
+                        <p class="mb-3">
+                            <label class="fw-bold form-label" for="email">E-Mail </label>
+                            <input class="form-control" type="email" id="email" name="Email" required>
+                        </p>
+                        <p class="mb-3">
+                            <label class="fw-bold form-label" title="Select your program.">Program</label>
+                            <select class="form-select" name="programID">
+                                <option value="">&larr;&nbsp;Select Program&nbsp;&rarr;</option>
+                                <option value="1">Web Development</option>
+                                <option value="2">Programming</option>
+                                <option value="3">PC Support</option>
+                                <option value="4">Networking Security</option>
+                                <option value="5">Cloud Computing</option>
+                            </select>
+                        </p>
+                        <p class="mb-3 form-check">
+                            <input class="form-check-input" type="checkbox" id="contact-me" name="contact-me" checked>
+                            <label class="fw-bold form-check-label" for="contact-me">Contact Me</label>
+                        </p>
+                        <h3>Message</h3>
+                        <p class="mb-3 form-check">
+                            <label class="fw-bold form-check-label" for="question">Question </label>
+                            <input class="form-check-input" type="radio" name="request" id="question" value="question">
+                            <br>
+                            <label class="fw-bold form-check-label" for="comment">Comment </label>
+                            <input class="form-check-input" type="radio" name="request" id="comment" value="comment">
+                        </p>
+                        <p class="mb-3 form-check">
+                            <label class="fw-bold form-label" for="date">Today's Date</label>
+                            <input class="form-control" type="date">
+                        </p>
+                        <p>
+                            <input class="form-check-input" type="color" id="color">
+                            <label class="fw-bold form-label" for="color">Favorite Color</label>
+                        </p>
+                        <input class="btn btn-primary" type="submit" name="submit" value="Send Mail">
+                        <input class="btn btn-warning" type="reset" name="reset" value="Erase Me">
+                    </form>
+                </fieldset>
+            </article>
+        </section>
+    </main>
+
+    <footer class="container-fluid bg-success text-light p-2 text-center">
+        <p>Copyright &copy; 2021</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

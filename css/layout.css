@@ -42,7 +42,7 @@ nav {
     top: 0;
 }
 
-article {
+.article {
     clear: both;
     border: thick solid var(--yellow);
     border-radius: 15px;
